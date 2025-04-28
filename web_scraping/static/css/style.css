@@ -1,0 +1,37 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e4f5);
+    color: #1f2937;
+}
+
+h1, h2 {
+    color: #092377;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.shadow {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.bg-white {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.bg-indigo-100 {
+    background: rgba(199, 210, 254, 0.7);
+    backdrop-filter: blur(8px);
+}
+
+.rounded {
+    border-radius: 1rem;
+}
+
+canvas {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 1rem;
+}

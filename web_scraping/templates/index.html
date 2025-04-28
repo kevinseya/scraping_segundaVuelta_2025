@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📊 Dashboard Noticias y Redes</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="bg-gray-100 min-h-screen">
+  <div class="max-w-7xl mx-auto p-6">
+    <h1 class="text-5xl font-extrabold text-center mb-12 text-indigo-700">📊 Dashboard Noticias y Redes - Elecciones Presidenciales, Segunda Vuelta - Ecuador</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-2xl font-semibold mb-4 flex items-center">
+          📰 Nube de Palabras - Títulos de Periódicos
+        </h2>
+        <img src="/static/images/wordcloud_titles.png" class="rounded shadow-md">
+      </div>
+      <div>
+        <h2 class="text-2xl font-semibold mb-4 flex items-center">
+          📰 Nube de Palabras - Contenido de Periódicos
+        </h2>
+        <img src="/static/images/wordcloud_content.png" class="rounded shadow-md">
+      </div>
+    </div>
+
+    <div class="mt-12">
+      <h2 class="text-2xl font-semibold mb-4 flex items-center">
+        <img src="/static/images/logo-black.png" alt="X Logo" class="h-8 mr-2"> Nube de Palabras - Red Social X
+      </h2>
+      <img src="/static/images/wordcloud_tweets.png" class="rounded shadow-md">
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+      <div class="p-6 bg-white rounded shadow">
+        <h2 class="text-2xl font-bold mb-6 text-gray-800">Distribución de Sentimientos en Noticias 📰</h2>
+        <canvas id="sentimientosNoticiasChart"></canvas>
+      </div>
+
+      <div class="p-6 bg-white rounded shadow">
+        <h2 class="text-2xl font-bold mb-6 text-gray-800">Distribución de Sentimientos en X <img src="/static/images/logo-black.png" alt="X Logo" class="inline h-6 ml-1"></h2>
+        <canvas id="sentimientosTweetsChart"></canvas>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+      <div class="p-6 bg-white rounded shadow">
+        <h2 class="text-2xl font-bold mb-6 text-gray-800">Temas Más Relevantes 📚</h2>
+        <canvas id="temasChart"></canvas>
+      </div>
+
+      <div class="p-6 bg-white rounded shadow">
+        <h2 class="text-2xl font-bold mb-6 text-gray-800">Menciones por Candidato 🗳️</h2>
+        <canvas id="mencionesChart"></canvas>
+      </div>
+    </div>
+
+    <div class="mt-12 p-6 bg-white rounded shadow">
+      <h2 class="text-2xl font-bold mb-6 text-gray-800">Fuentes de Noticias 📰</h2>
+      <canvas id="fuentesChart"></canvas>
+    </div>
+
+    <div class="mt-12 p-8 bg-indigo-100 rounded shadow">
+      <h2 class="text-3xl font-extrabold mb-4">🧠 Conclusión Automatizada</h2>
+      <p id="conclusion-text" class="text-lg text-gray-700 leading-relaxed">Generando análisis...</p>
+    </div>
+
+    <div class="mt-12">
+      <h2 class="text-2xl font-bold mb-6 text-gray-800 flex items-center">
+        <img src="/static/images/logo-black.png" alt="X Logo" class="h-8 mr-2"> Últimos Tweets Capturados
+      </h2>
+      <div id="tweets-container" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+    </div>
+  </div>
+
+  <script>
+    const data = {{ data | tojson }};
+  </script>
+  <script src="/static/js/charts.js"></script>
+</body>
+</html>

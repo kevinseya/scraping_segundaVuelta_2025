@@ -1,0 +1,223 @@
+{
+    "sentimientos_noticias": {
+        "neutro": 102,
+        "negativo": 59,
+        "positivo": 41
+    },
+    "sentimientos_tweets": {
+        "neutral": 75,
+        "negative": 35,
+        "positive": 6
+    },
+    "temas": {
+        "Otros": 87,
+        "Seguridad": 35,
+        "Renovación Política": 20,
+        "Seguridad, Economía, Renovación Política": 16,
+        "Seguridad, Economía": 12,
+        "Seguridad, Renovación Política": 10,
+        "Economía": 9,
+        "Seguridad, Economía, Corrupción, Renovación Política": 5,
+        "Economía, Renovación Política": 3,
+        "Seguridad, Corrupción": 2,
+        "Seguridad, Economía, Corrupción": 2,
+        "Seguridad, Corrupción, Renovación Política": 1
+    },
+    "menciones": {
+        "Daniel Noboa": 1086,
+        "Luisa González / Rafael Correa": 80
+    },
+    "fuentes": {
+        "El Comercio": 92,
+        "El Extra": 54,
+        "Expreso": 48,
+        "El Universo": 8
+    },
+    "palabras_titulos": [
+        [
+            "noboa",
+            84
+        ],
+        [
+            "gonzález",
+            71
+        ],
+        [
+            "semanas",
+            56
+        ],
+        [
+            "2",
+            49
+        ],
+        [
+            "resultados",
+            43
+        ],
+        [
+            "2025",
+            38
+        ],
+        [
+            "13",
+            32
+        ],
+        [
+            "electoral",
+            31
+        ],
+        [
+            "2025:",
+            28
+        ],
+        [
+            "campaña",
+            23
+        ],
+        [
+            "1",
+            20
+        ],
+        [
+            "presidencial",
+            19
+        ],
+        [
+            "presidente",
+            16
+        ],
+        [
+            "revolución",
+            14
+        ],
+        [
+            "semana",
+            13
+        ],
+        [
+            "votar",
+            13
+        ],
+        [
+            "3",
+            13
+        ],
+        [
+            "es",
+            12
+        ],
+        [
+            "ecuador:",
+            12
+        ],
+        [
+            "candidata",
+            11
+        ]
+    ],
+    "palabras_contenido": [
+        [
+            "noboa",
+            443
+        ],
+        [
+            "electoral",
+            427
+        ],
+        [
+            "es",
+            393
+        ],
+        [
+            "gonzález",
+            318
+        ],
+        [
+            ",",
+            302
+        ],
+        [
+            "nacional",
+            251
+        ],
+        [
+            "13",
+            238
+        ],
+        [
+            "resultados",
+            225
+        ],
+        [
+            "presidente",
+            214
+        ],
+        [
+            "tres",
+            184
+        ],
+        [
+            "voto",
+            178
+        ],
+        [
+            "hasta",
+            177
+        ],
+        [
+            ".",
+            167
+        ],
+        [
+            "síguenos",
+            166
+        ],
+        [
+            "pero",
+            163
+        ],
+        [
+            "todos",
+            161
+        ],
+        [
+            "primera",
+            159
+        ],
+        [
+            "actualidad",
+            157
+        ],
+        [
+            "deportes",
+            156
+        ],
+        [
+            "candidata",
+            146
+        ]
+    ],
+    "ultimos_tweets": [
+        {
+            "usuario": "ICN.Digital",
+            "fecha": "2025-04-27T15:10:24.000Z",
+            "contenido": "#Internacionales| La Misión de Observación Electoral de la OEA reconoció oficialmente la victoria de Daniel Noboa en la segunda vuelta presidencial del 13 de abril de 2025 en Ecuador, al obtener el 55,63 % de los votos frente al 44,37 % de Luisa González. \n\nLa OEA indicó que"
+        },
+        {
+            "usuario": "Ana Carolina Peña",
+            "fecha": "2025-04-27T03:00:29.000Z",
+            "contenido": "Resumen de las elecciones en Ecuador 2025: habrá segunda vuelta entre Noboa y González https://cnnespanol.cnn.com/2025/02/09/resultados-elecciones-ecuador-2025-primera-vuelta-orix/…"
+        },
+        {
+            "usuario": "Yeferson Quintero",
+            "fecha": "2025-04-26T22:33:03.000Z",
+            "contenido": "La ALBA-TCP rechazó la decisión del CNE de Ecuador de desestimar las reclamaciones de Revolución Ciudadana tras denuncias de irregularidades en la segunda vuelta electoral del 13 de abril de 2025.\n\n Considera que esto valida un posible fraude electoral y llama a los pueblos a"
+        },
+        {
+            "usuario": "Machala Libre Ec",
+            "fecha": "2025-04-26T19:40:18.000Z",
+            "contenido": "@grok\n le puedes decir al imbécil de #Correa \n@MashiRafael\n que deje de quedar en ridículo con la insistencia del fraude por el presunto traspaso de tinta en las papeletas de la segunda vuelta electoral del Ecuador 2025?\nYa cansa este energúmeno"
+        }
+    ],
+    "conclusion": "El triunfo de Daniel Noboa en las elecciones ecuatorianas de 2025 se explica por una estrategia de comunicación que capitalizó la alta exposición mediática.  A pesar de un sentimiento negativo predominante en la prensa local (59% en periódicos, 35% en X), la abrumadora cantidad de menciones a Noboa (1086 vs. 80 de González/Correa) compensó esta percepción.  El Comercio, principal medio, lo favoreció con una extensa cobertura (92 artículos).  Si bien la seguridad fue el tema más mencionado,  la alta presencia de Noboa en la conversación pública, en un contexto de indiferencia generalizada (alta neutralidad en X y periódicos),  permitió posicionarlo como la figura más conocida y, por tanto, la opción predominante, a pesar de la polarización del electorado.  La escasa cobertura en El Universo sugiere un público objetivo focalizado."
+}
