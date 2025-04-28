@@ -111,7 +111,7 @@ scraping/
 └── .gitignore
 ```
 
-##🧠 Tecnologías Utilizadas
+## 🧠 Tecnologías Utilizadas
 
     Python (3.9+)
     Playwright y Selenium para scraping
@@ -123,7 +123,7 @@ scraping/
     TailwindCSS + Chart.js para visualización de datos
     Matplotlib y WordCloud para nubes de palabras
 
-##📚 Anexos
+## 📚 Anexos
 ![imagen](https://github.com/user-attachments/assets/fa32d0ee-3a25-4bbc-a605-287056ea22dc)
 ![imagen](https://github.com/user-attachments/assets/54574d95-b7fb-4dde-aa87-c82bed2e50fb)
 ![imagen](https://github.com/user-attachments/assets/28868f62-e2df-4b4a-9393-181043aa5b09)
