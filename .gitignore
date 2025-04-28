@@ -1,0 +1,48 @@
+# Archivos de Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos de configuración de entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+
+# Archivos generados por herramientas de desarrollo
+*.log
+*.pot
+*.mo
+*.bak
+*.swp
+
+# Archivos de distribución y empaquetado
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.whl
+
+# Archivos de configuración IDE (como VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+*.iml
+
+# Archivos de configuración de Jupyter notebooks
+.ipynb_checkpoints/
+
+# Archivos de configuración de entorno
+*.env
+*.venv
+.envrc
+
+# Archivos temporales o de respaldo
+*.bak
+*.swp
+
+# Archivos de base de datos
+*.sqlite3
+
+# Archivos de caché
+.cache/
